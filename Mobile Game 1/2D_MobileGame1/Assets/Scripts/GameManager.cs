@@ -48,6 +48,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("GAME OVER");
         restartButton.gameObject.SetActive(true);
         GOPanel.SetActive(true);
+
         //gameOverText.gameObject.SetActive(true);
         //isGameActive = false;
 
@@ -55,7 +56,7 @@ public class GameManager : MonoBehaviour
     public void Restart()
     {
 
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     public void LevelFinishhh()
