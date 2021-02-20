@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
         score = 0;
         UpdateScore(0);
         GOPanel.SetActive(false);
-        LevelFinish.SetActive(false);
+        //LevelFinish.SetActive(false);
     }
 
     // Update is called once per frame
