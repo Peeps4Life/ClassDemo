@@ -16,6 +16,7 @@ public class PlayerCollision : MonoBehaviour
             GetComponent<PlayerAutoMovement>().enabled = false;
             GetComponent<Character2DController>().enabled = false;
             GetComponent<Weapon>().enabled = false;
+            //qGetComponent<CameraFollow>().enabled = false;
             FindObjectOfType<GameManager>().GameOver();
 
             //GameManager.GameOver(); 
