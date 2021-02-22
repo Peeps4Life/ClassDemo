@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Character2DController : MonoBehaviour
 {
-    public float MovementSpeed = 1;
+    public float Move = 1;
     // Start is called before the first frame update
     private void Start()
     {
@@ -15,6 +15,6 @@ public class Character2DController : MonoBehaviour
     private void Update()
     {
         var movement = Input.GetAxis("Horizontal");
-        transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * MovementSpeed;
+        transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * Move;
     }
 }
