@@ -5,7 +5,7 @@ using UnityEngine;
 public class DragFingerMove : MonoBehaviour
 {
     private Vector3 touchPosition;
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     private Vector3 direction;
     private float moveSpeed = 10f;
 
